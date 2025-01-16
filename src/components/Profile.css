@@ -1,0 +1,33 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .profile-actions .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-actions .btn:hover {
+    background-color: #45a049;
+  }
+  

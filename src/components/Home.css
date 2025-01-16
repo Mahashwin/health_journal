@@ -1,0 +1,17 @@
+.home-content {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .home-content h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+  }
