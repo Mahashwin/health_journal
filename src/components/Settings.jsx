@@ -4,7 +4,7 @@ import './Settings.css';
 
 const Settings = () => {
   const [formData, setFormData] = useState({
-    email: 'johndoe@example.com',
+    email: 'madhu@gmail.com',
     password: '',
     confirmPassword: ''
   });

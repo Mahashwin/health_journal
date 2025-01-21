@@ -12,6 +12,7 @@ import Profile from "./components/Profile";
 import Settings from "./components/Settings";
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -32,7 +33,9 @@ function App() {
           <Route path="/profile" element={<Profile/>}></Route>
           <Route path="/settings" element={<Settings/>}/>
           
+          
         </Routes>
+        
       </Layout>
     </BrowserRouter>
   );

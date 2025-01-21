@@ -5,9 +5,13 @@ import './Home.css';
 const Home = () => {
   return (
     <Layout>
-      <div className="home-content">
-        <h1>Welcome to the Health Journal</h1>
-        <p>Track your symptoms, manage personal details, and maintain your health journal.</p>
+      <div className="page-wrapper">
+        <div className="home-content">
+          <div className="content-box">
+            <h1>Welcome to the Health Journal</h1>
+            <p>Track your symptoms, manage personal details, and maintain your health journal.</p>
+          </div>
+        </div>
       </div>
     </Layout>
   );

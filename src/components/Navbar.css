@@ -1,19 +1,10 @@
-
 .navbar {
-  padding: 1rem;
-  background-color: #2d3748; 
-  color: white;
-}
-
-.navbar.light {
-  background-color: #edf2f7;
-  color: black;
-}
-
-.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  background-color: #2c3e50;
+  color: white;
 }
 
 .nav-links {
@@ -23,42 +14,36 @@
 
 .nav-link {
   text-decoration: none;
-  color: inherit;
-  transition: color 0.3s ease;
+  color: white;
+  font-weight: bold;
 }
 
 .nav-link:hover {
-  color: #cbd5e0; 
+  text-decoration: underline;
 }
 
 .nav-icons {
   display: flex;
-  gap: 1rem;
   align-items: center;
+  gap: 1rem;
 }
 
 .icon-button {
-  padding: 0.5rem;
-  border-radius: 50%;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-}
-
-.icon-button:hover {
-  background-color: #4a5568;
-}
-
-.icon {
-  font-size: 20px;
-  color: inherit;
-}
-
-.navbar.dark {
-  background-color: #2d3748;
+  background: none;
+  border: none;
   color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-.navbar.light .nav-link:hover,
-.navbar.light .icon-button:hover {
-  background-color: #cbd5e0;
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon-button:hover,
+.profile-icon:hover {
+  opacity: 0.8;
 }

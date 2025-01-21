@@ -8,8 +8,9 @@ body {
   font-family: 'Arial', sans-serif;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   min-height: 100vh;
+  justify-content: center;
   min-width: 1200px;
-  overflow-x: auto;
+  
 }
 
 .auth-container {
